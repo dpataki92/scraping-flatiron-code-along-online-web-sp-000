@@ -11,6 +11,7 @@ class Scraper
     binding.pry
   end
 
+=begin
   def print_courses
     self.make_courses
     Course.all.each do |course|
@@ -21,5 +22,7 @@ class Scraper
       end
     end
   end
-
+=end
 end
+
+Scraper.new.get_page
