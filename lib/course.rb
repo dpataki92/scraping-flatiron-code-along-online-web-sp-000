@@ -15,6 +15,6 @@ class Course
     @@all.clear
   end
 
-  
+
 
 end
